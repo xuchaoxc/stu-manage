@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+    "host": "127.0.0.1",
+    "port": 49153,
+    "username": "postgres",
+    "password": "abc123",
+    "database": "stuman_db",
+    "schema":  "public",
+    "entities": ["src/modules/**/*.entity{ .ts,.js}"],
+    "synchronize": "false"
+}
